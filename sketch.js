@@ -40,10 +40,10 @@ function draw() {
 
   rabbit.position.x=mouseX;
 
-  if(frameCount%140==0) {
+  if(frameCount%80==0) {
     spawnBroccoli();
   }
-  if(frameCount%150==0) {
+  if(frameCount%90==0) {
     spawnCarrot();
   }
 
